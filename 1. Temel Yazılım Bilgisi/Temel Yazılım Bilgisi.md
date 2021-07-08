@@ -34,5 +34,13 @@
 - Dünyada ilk iletişim 29 Ekim 1949 yılında oldu.
 - Türkiye'de ilk iletişim 1993 yılında ODTÜ'de oldu.
 
-
-![image](https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/784839/637379_932425.png)
+## FRONTEND 
+- Frontend’in Türkçe karşılığı “Önyüz”dür. 
+- Web'in görüp etkileşime girebildiğiniz kısımlarına verilen addır. Frontend genellikle web tasarımı ve web'in ön yüzünün geliştirilmesini kapsar. 
+- Web tasarımı dendiğinde; Adobe XD, Photoshop ve Sketch gibi tasarım programlarını kullanabilen, aynı zamanda da HTML, CSS, JavaScript ve JQuery ile kod yazabilen tasarımcılardan bahsedilir.
+- Bir web sitesini kullanırken gördüğünüz her şey; HTML, CSS ve JavaScript'in, kullandığınız web tarayıcı tarafından kontrol edilmesidir. 
+## BACKEND
+-  Backend’in Türkçe karşılığı “Arkayüz”dür. 
+-  Kullanıcıların görmediği arka yüz (Server-side) geliştiren kişidir. Yani sistemin mimarisini oluşturan, veri tabanı yönetimini planlayan, sunucu ayarlamalarından sorumlu, sistemin maksimum seviyede verimli ve hızlı çalışmasını sağlayan kişidir. 
+-  Back-end teknolojilerinide Python, PHP, Ruby, Java, C#, ASP.NET, MySQL, MS Sql, MongoDB diye özetleyebiliriz.
+![image](https://res.cloudinary.com/dmsxwwfb5/image/upload/v1595866967/full-stack-devlopment-min.png)
