@@ -29,4 +29,4 @@
 ```
 
 <br>
-![image](https://user-images.githubusercontent.com/75336900/125614399-087d4e21-7ea2-48d1-8f5c-a43e88335a95.png)
+<image src = "https://user-images.githubusercontent.com/75336900/125614399-087d4e21-7ea2-48d1-8f5c-a43e88335a95.png">
