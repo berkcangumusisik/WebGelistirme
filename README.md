@@ -13,7 +13,7 @@ Bu repo kendimi web alanında geliştirme sürecimde aldığım notları ve yapt
 - Frontend, Backend ve Full Stack Developer kavramları üzerine duruldu.
 
 # 2. HTML5
-<img src="http://vimaj.com/images/html-nedir.jpg">
+
 - HTML hakkında teorik bilgi verildi.
 - Temel HTML yapısı incelendi.
 - Meta etiketlerinin işlevleri anlatıldı.
@@ -22,3 +22,6 @@ Bu repo kendimi web alanında geliştirme sürecimde aldığım notları ve yapt
 - Biçimlendirme etiketleri incelendi.
 - Sıralı ve sırasız listeler incelendi.
 - HTML sayfalarına nasıl resim ekleneceği incelendi.
+
+<img src="http://vimaj.com/images/html-nedir.jpg">
+<hr>
