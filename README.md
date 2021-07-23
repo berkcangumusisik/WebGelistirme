@@ -22,6 +22,7 @@ Bu repo kendimi web alanında geliştirme sürecimde aldığım notları ve yapt
 - Biçimlendirme etiketleri incelendi.
 - Sıralı ve sırasız listeler incelendi.
 - HTML sayfalarına nasıl resim ekleneceği incelendi.
-
+- HTML link verme işlemleri yapıldı.
+- Tablo işlemleri incelendi ve örnek uygulama yapıldı.
 <img src="http://vimaj.com/images/html-nedir.jpg">
 <hr>
