@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formlar</title>
+  </head>
+
+  <body>
+    <form action="register.php">
+      <div>
+        <label for="name">Adınız:</label>
+        <input type="text" id="name" />
+      </div>
+
+      <div>
+        <label for="surname">Soyadınız:</label>
+        <input type="text" id="surname" />
+      </div>
+      <div>
+        <p>En sevdiğiniz programlama dili:</p>
+
+        <input type="radio" name="programlama" id="html">
+        <label for="html">HTML</label>
+        <input type="radio" name="programlama" id="css">
+        <label for="css">CSS</label>
+        <input type="radio" name="programlama" id="javascript">
+        <label for="javascript">JavaScript</label>
+    </div>
+
+    <div>
+        <label for="intro">Kendini anlat:</label>
+        <textarea id="intro" placeholder="Kendinizi tanıtan kısa bir yazı yazınız..."></textarea>
+    </div>
+
+    <div>
+        <p>En sevdiğiniz programlama dili:</p>
+
+        <input type="checkbox"  id="html2">
+        <label for="html2">HTML</label>
+        <input type="checkbox"  id="css2">
+        <label for="css2">CSS</label>
+        <input type="checkbox" id="javascript2">
+        <label for="javascript2">JavaScript</label>
+    </div>
+
+    <div>
+        <label for="cities">Şehir</label>
+        <select id="cities">
+            <option value="41">Kocaeli</option>
+            <option value="34">İstanbul</option>
+            <option value="06">Ankara</option>
+
+        </select>
+    </div>
+
+    <div>
+        <label for="eposta">Email:</label>
+        <input type="email" id="eposta" />
+    </div>
+
+    <div>
+        <label for="sifre">Şifre:</label>
+        <input type="password" id="sifre" />
+    </div>
+
+    <div>
+        <label for="birtday">Doğum Tarihi:</label>
+        <input type="date" id="birtday />
+    </div>
+
+    <button type="submit">Kaydet</button>
+    <button type="reset">Temizle</button>
+
+    </form>
+  </body>
+</html>
+
+<!--
+   * Formları oluşturmak için kullanılır. Bu etiket form elemanlarının olmazsa olmazıdır. Form 
+   etiketi <form> ile açılmakta ve </form> şeklinde kapanmaktadır.
+   * Action parametresi forma girilen verilerin hangi sayfada kullanılacağını (işleneceğini) 
+   belirlemek için kullanılmaktadır. 
+   * input etiketi kapatılmamaktadır. 
+   * <input type=""> type: kullanılacak elemamım türünü belirtir.
+   * <input type="text"> => tek satırlık veri girişi sağlar. 
+   * <label></label> form etiketinin yazısıdır. for ile id ilişkisi kurulabilir.
+   * <input type="checkbox"> => Checkbox özelliği birden fazla olduğu zaman hepsini seçebilmemize veya hiçbirini seçmemize olanak sağlamaktadır. 
+   * Name özelliğine girilen isimler farklı olmak zorundadır.
+   * <input type="radio"> => Radio onay kutularının birbiri ile iletişim halinde olması için name isimleri aynı olmak zorundadır.
+   Radio özelliği tek seçenek seçmemize olanak sağlamaktadır. Bu özellikte kesinlikle bir seçenek seçilmesi gerekmektedir. 
+   Radio özelliği ile eklenen onay kutuları birbirleri ile etkileşim halinde olmak zorundadırlar bu yüzden name parametresine 
+   girilen isimler aynı olmalıdır. Radio özelliği ile eklediğimiz onay kutuların verileri(içerikleri-yazıları) 
+   value parametresinin içine girilmektedir.
+
+
+
+-->
