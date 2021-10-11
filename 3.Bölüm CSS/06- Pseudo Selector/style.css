@@ -1,0 +1,66 @@
+p::first-line {
+  font-weight: bold;
+  color: red;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+}
+p.about::first-line {
+  color: green;
+}
+
+p::first-letter {
+  font-size: 40px;
+}
+
+p::after {
+  content: "";
+  display: block;
+  background-color: yellow;
+  padding: 10px;
+}
+
+ul li:first-child {
+  background-color: purple;
+}
+ul li:last-child {
+  background-color: purple;
+}
+ul li {
+  padding: 10px;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+ul li:nth-of-type(even) {
+  border: 2px solid green;
+}
+
+ul li:nth-of-type(odd) {
+  border: 2px solid blue;
+}
+
+a {
+  padding: 5px 8px;
+  text-decoration: none;
+  width: 80px;
+  border: 1px solid blue;
+  margin-bottom: 10px;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: white;
+  background: green;
+}
+
+a:active {
+  color: green;
+  background: gold;
+}
