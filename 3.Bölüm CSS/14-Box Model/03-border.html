@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Border</title>
+	<style>	
+		
+		body{
+			margin: 0;
+		}
+		
+		.box{
+			width: 120px;
+			height: 120px;
+			background: lightgray;
+			margin: 5px;
+			padding: 10px;
+		}
+		
+		#first{
+			border: 1px solid red;
+		}
+		#second{
+			border-top-width: 1px;
+            border-right-width: 3px;
+			border-bottom-width: 4px;
+			border-left-width: 2px;
+
+            border-top-style: solid;
+            border-right-style: dashed;
+            border-left-style: groove;
+            border-bottom-style: double;
+
+            border-top-color: red;
+            border-right-color: aqua;
+            border-left-color: bisque;			
+            border-bottom-color: blue;
+			
+		}
+		#third{
+            border: 3px solid green;
+			border-top-left-radius: 15px;
+			border-top-right-radius: 20pz;
+		}
+		#fourth{
+            border: 3px solid green;
+			border-radius: 50%;
+		}
+		 
+	</style>
+</head>
+<body>	
+	
+	<div class="box" id="first">box 1</div>
+	<div class="box" id="second">box 2</div>
+	<div class="box" id="third">box 3</div>	
+	<div class="box" id="fourth">box 4</div>	
+	
+</body>
+</html>
+
+<!--
+	Kenarlık eklemeyi sağlar.
+	3 özellik verebiliriz.
+	border-style border-width ve border- color özelliğini alır.
+	4 köşeye ayrı kenarlık verebiliriz.
+	border-radius: ; kenar yuvarlatmayı sağlar.
+	
+
+-->

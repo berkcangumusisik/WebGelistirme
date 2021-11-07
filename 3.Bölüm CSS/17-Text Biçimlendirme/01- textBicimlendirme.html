@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Metin Biçimlendirme</title>
+    <style>
+      body {
+        width: 700px;
+        margin: 30px auto;
+        font-family: "Red Hat Mono", monospace;
+        font-size: 22px;
+      }
+      h2 {
+        text-transform: capitalize;
+      }
+      p {
+        font-size: 22px;
+        line-height: 150%;
+        word-spacing: 3px;
+        text-indent: 20px;
+        letter-spacing: 1px;
+      }
+      .bold {
+        font-weight: bold;
+      }
+      .italic {
+        font-weight: italic;
+      }
+      .link {
+        color: #03a9f4;
+        text-decoration: none;
+      }
+      p#first {
+        text-align: right;
+      }
+      p#second {
+        text-align: center;
+      }
+
+      p#third {
+        border: 1px solid green;
+        padding: 10px;
+        text-align: left;
+        column-count: 2;
+        column-rule: 1px solid green;
+      }
+      p#fourth {
+        text-align: justify;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda,
+      voluptatibus.
+    </h2>
+
+    <p id="first">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi a totam
+      suscipit sequi perferendis officia dolores nihil, ea culpa eos
+      perspiciatis repudiandae libero nisi vero dignissimos eius accusantium
+      sit.
+      <span class="bold italic"> <a href="#" class="link"> Redum.</a></span>
+    </p>
+    <p id="second">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi a totam
+      suscipit sequi perferendis officia dolores nihil, ea culpa eos
+      perspiciatis repudiandae libero nisi vero dignissimos eius accusantium
+      sit.
+      <span class="bold italic"> <a href="#" class="link"> Redum.</a></span>
+    </p>
+    <p id="third">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi a totam
+      suscipit sequi perferendis officia dolores nihil, ea culpa eos
+      perspiciatis repudiandae libero nisi vero dignissimos eius accusantium
+      sit.
+      <span class="bold italic"> <a href="#" class="link"> Redum.</a></span>
+    </p>
+    <p id="fourth">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi a totam
+      suscipit sequi perferendis officia dolores nihil, ea culpa eos
+      perspiciatis repudiandae libero nisi vero dignissimos eius accusantium
+      sit.
+      <span class="bold italic"> <a href="#" class="link"> Redum.</a></span>
+    </p>
+  </body>
+</html>
+
+<!--
+    text-decoration:none; => altındaki çizgiyi kaldırır.
+    text-decoration:underline; => altını çizer
+    text-decoration:overline; => üstünü çizer
+    text-decoration:line-through; => ortasını çizer
+    text-transform: uppercase; => büyük harfe çevirir text-transform: lowercase; => küçük harfe çevirir text-transform: capitalize; => her kelimenin baş harfini büyük harfe çevirir.
+    text-indent: ; => paragraf başı bırakır.
+    letter-spacing: => harf aralığını belirler.
+    line-height => satır yüksekliğini belirler.
+    word-spacing => kelimeler arası boşul verir.
+    text-align => bir block eleman içindeki yazıların ya da içeriklerin hizalanmasını sağlar. Inline elementlere block elementler içine alınarak yapılır.
+    text-align : left | center | right | justify;
+-->

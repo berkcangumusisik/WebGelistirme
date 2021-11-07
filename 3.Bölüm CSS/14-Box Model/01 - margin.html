@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Margin</title>
+	<style>		
+		body {
+			margin:0;
+		}
+		.box{
+			width: 100px;
+			height: 100px;
+			
+		}
+		
+		#first{
+			background: red;
+			margin: 10px 10px 50px 100px;
+		}
+		#second{
+			background: blue;		
+			margin-top: 50px;
+			margin-left:100px;
+			margin-right: 50px;
+			margin-bottom: 100px;
+			margin:auto;
+		}
+		#third{
+			background: green;
+			margin:100px 200px;
+		}
+		span{
+			background:red;
+			margin:auto;
+			display:inline-block;
+		} 
+	</style>
+</head>
+<body>	
+	
+	<div class="box" id="first">box 1</div>
+	<div class="box" id="second">box 2</div>
+	<div class="box" id="third">box 3</div>	
+	<span>Metin 1</span>
+	<span>Metin 2</span>
+	<span>Metin 3</span>
+</body>
+</html>
+
+<!--
+Css Margin, html nesnelerinin birbiri ile olan mesafelerini belirtir.
+margin : top right bottom left; => Her köşe için ayrı margin
+margin : top-bottom right-left; => alt ve yan için ayrı margin
+margin : top-right-bottom-left; => Dört köşe için tek bir margin 
+-->
