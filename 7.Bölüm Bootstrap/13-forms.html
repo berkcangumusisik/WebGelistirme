@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <title>Forms</title>
+</head>
+
+<body class="w-75 mx-auto my-4">
+    <form>
+    <div class="form-group">
+        <label for="name">İsim</label>
+        <input type="text" id="name" class="form-control" placeholder="İsminizi giriniz" />
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" class="form-control" placeholder="Mail adresinizi giriniz" />
+        <small class="form-text text-muted">
+            Lütfen geçerli bir mail adresi giriniz.
+        </small>
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="password">Şifre</label>
+        <input type="password" id="password" class="form-control" placeholder="Şifrenizi giriniz" />
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="city">Şehir</label>
+        <select name="city" id="city" class="form-control">
+            <option value="ankara">Ankara</option>
+            <option value="istanbul">İstanbul</option>
+            <option value="izmir">İzmir</option>
+        </select>
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="mesaj">Mesaj</label>
+        <textarea name="mesaj" id="mesaj" cols="5" rows="10" class="form-control"></textarea>
+    </div>
+    <br>
+    <div class="form-group">
+        <legend>Hobiler</legend>
+        <div class="form-check">
+            <label class="form-check-label">
+                <input type="checkbox"> Müzik dinlemek
+            </label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label">
+                <input type="checkbox"> Oyun oynamak
+            </label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label">
+                <input type="checkbox"> Kod yazmak
+            </label>
+        </div>
+    </div>
+    <br>
+    <div class="custom-control custom-checkbox">
+        <input id="ch" type="checkbox" class="custom-control-input"> 
+        <label class="custom-control-label" for="ch">Okudum,onaylıyorum</label>
+    </div>
+    <br>
+    <div class="custom-control custom-radio">
+        <input id="rd" type="radio" class="custom-control-input"> 
+        <label class="custom-control-label" for="rd">Okudum,onaylıyorum</label>
+    </div>
+    <div>
+
+        <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="cr1" name="example" class="custom-control-input ">
+            <label class="custom-control-label" for="cr1">Custom Radio 1</label>
+        </div>
+
+        <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="cr2" name="example" class="custom-control-input">
+            <label class="custom-control-label" for="cr2">Custom Radio 1</label>
+        </div>
+
+
+
+    </div>
+
+
+    <div class="input-group mt-3">
+
+        <input type="text" class="form-control">
+        <div class="input-group-append">
+            <span class="input-group-text" id="ig">@gmail.com</span>
+        </div>
+
+    </div>
+
+    <div class="input-group mt-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="ig">http://berkcangumusisik.com/</span>
+        </div>
+        <input type="text" class="form-control">
+    </div>
+
+
+    <div class="clearfix mt-4">
+
+        <div class="w-50 float-left">
+            <div class="form-group">
+                <label for="name">İsim</label>
+                <input type="text" id="name" class="form-control" placeholder="İsminizi Giriniz">
+            </div>
+        </div>
+
+        <div class="w-50 float-left pl-2">
+            <div class="form-group">
+                <label for="name">Soyisim</label>
+                <input type="text" id="name" class="form-control" placeholder="Soyadınızı giriniz">
+            </div>
+        </div>
+
+
+    </div>
+    
+    <div class="clearfix mt-4">
+
+        <div class="w-50 float-left">
+            <div class="form-group">
+                <label for="name">İsim</label>
+                <input type="text" id="name" class="form-control" placeholder="İsminizi Giriniz">
+            </div>
+        </div>
+
+        <div class="w-50 float-left pl-2">
+            <div class="form-group">
+                <label for="name">Soyisim</label>
+                <input type="text" id="name" class="form-control" placeholder="Soyadınızı giriniz">
+            </div>
+        </div>
+
+
+    </div>
+
+
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
