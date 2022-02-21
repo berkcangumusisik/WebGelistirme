@@ -1,4 +1,4 @@
-+/**
+/**
  * Javascript'te stringlerin daha güzel durmasını sağlar.
  * `` içerisinde ${degiskenAdi} yazılarak kullanılır. 
  */
@@ -19,11 +19,11 @@ let html = "<ul>"+
            "</ul>"
 document.body.innerHTML = html
 
+/*
 let html = `<ul>
             <li>${fullName}</li>
             <li>${(2022-yearOfBirth)}</li>
             <li>${city}</li>
             </ul>
            `
-document.body.innerHTML = html
-           
+*/
